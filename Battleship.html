@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Ship</title>
+    <link rel="stylesheet" type="text/css" href="Battleship.css">
+
+</head>
+<scripts type="text/javacript" src="Battleship.js">
+    </script>
+
+    <body>
+        <div id="container">
+            <div id="topRow">
+                <div id="megaStats" class="stats">
+                    <span class="healthLabel"> HEALTH </span><br>
+                    <div class="hpBroder">
+                        <div id="megaManHP" class="hpBar"></div>
+                    </div>
+                    <p>
+                        <span class="healthLabel">MOVES</span><br>
+                        <button onclick="blast()">Blast</button><br>
+                    </p>
+        
+             </div>
+                <div id="megaMan" class="chars">
+                    <img src="Bman.jpg"><br>
+                </div>
+                <div id="Veigar" class="chars">
+                    <img src="enemy.jpg">
+                </div>
+                <div id="veigStats" class="stats">
+                    <span class="healthLabel">HEALTH</span><br>
+                    <div class="hpBorder">
+                        <div id="veigHP" class="hpBar"></div>
+                    </div>
+                    <span class="healthLabel">MOVES</span><br>
+                </div>
+            </div>
+            <div id="bottomRow"> <br>
+                <p>Welcome to the Battle Arena!</p>
+                <p>You are MegaMan facing off aginst BattleBoss Veigar!</p>
+                <button onclick="beginBattle()">BEGIN BATTLE!</button>
+            </div>
+        </div>
+        <script type="text/Javascript" src="Battleship.js"></script>
+    </body>
+
+</html>

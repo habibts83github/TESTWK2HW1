@@ -1,0 +1,48 @@
+#topRow {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+}
+
+/* #megaMan {
+    
+} */
+#meganMan img {
+ height: 200px;
+ 
+}
+
+/* #veigar {
+    border:1px solid;
+} */
+#veigar img {
+    transform: scaleX(-1) ;
+}
+.chars {
+    margin: 0px 0px ;
+}
+#bottomRow {
+    padding: 20px;
+    font:20pt Arial;
+}
+.stats {
+    width: 10px;
+    height: 20px;
+    /* visibility: hidden; */
+}
+.healthLabel{
+    font: 18pt Arial;
+    font-weight: bold;
+}
+.hpBorder {
+    width: 300px;
+    height: 30px;
+    border: 3px solid;
+    border-color: black;
+}
+.hpBar{
+    width:300px;
+    height:30px;
+    background-color: gold;
+}
